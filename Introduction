@@ -1,0 +1,26 @@
+The terms CI (Continuous Integration) and CD (Continuous Delivery/Continuous Deployment) are fundamental concepts in DevOps and software development that focus on automating and streamlining the process of delivering software. 
+
+---Continuous Integration (CI)---
+
+Goal: Automate the process of integrating code changes from multiple contributors into a shared repository.
+
+Key Features:
+
+Code Integration: Developers frequently commit their changes (at least once a day) into a shared repository. This ensures that code is integrated into the main branch continuously.
+
+Automated Builds & Tests: Each commit triggers an automated build and test process to ensure that the changes do not break the existing codebase. This involves running unit tests, integration tests, and sometimes static analysis.
+
+Early Detection of Errors: CI helps detect errors or conflicts early, as the code is integrated regularly. This makes it easier to identify bugs caused by a specific commit.
+
+
+---Continuous Deployment (CD)---
+
+Goal: Automate the entire pipeline, ensuring that every code change that passes the CI process is automatically deployed to production without human intervention.
+
+Key Features:
+
+Fully Automated Deployment: Code is automatically deployed to production as soon as it passes automated tests, without any manual approval.
+
+Real-Time Delivery: New features, fixes, and updates are delivered to users quickly, without delay.
+
+Requires Mature Testing and Monitoring: Since deployments are automatic, extensive automated tests and monitoring are crucial to ensure the quality and stability of the product.
