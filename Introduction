@@ -1,5 +1,6 @@
 The terms CI (Continuous Integration) and CD (Continuous Delivery/Continuous Deployment) are fundamental concepts in DevOps and software development that focus on automating and streamlining the process of delivering software. 
 
+
 ---Continuous Integration (CI)---
 
 Goal: Automate the process of integrating code changes from multiple contributors into a shared repository.
